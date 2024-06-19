@@ -6,7 +6,7 @@
 }
 html {
     scroll-behavior: smooth;
-    /* scrollbar-color: #fff var(--main-color); */
+    scrollbar-color: #fff var(--main-color);
 }
 body {
     font-family: "Open Sans", sans-serif;
