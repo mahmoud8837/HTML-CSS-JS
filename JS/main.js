@@ -1,5 +1,5 @@
 let landingPage = document.querySelector(".landing-page");
-landingPage.style.backgroundImage = "url(/imgs/landing1.jpg)";
+landingPage.style.backgroundImage = "url(imgs/landing1.jpg)";
 let backgroundImages = ["landing1.jpg", "landing2.jpg", "landing3.jpg", "landing4.jpg", "landing5.jpg"];
 let backgroundImageIndex = 0;
 const randomBackEl = document.querySelectorAll(".random-backgrounds span");
@@ -95,7 +95,7 @@ function switchingBackground() {
     if (backgroundOption === true) {
         backgroundInterval = setInterval(() => {
             backgroundImageIndex === backgroundImages.length ? backgroundImageIndex = 0 : backgroundImageIndex
-            landingPage.style.backgroundImage = `url(/imgs/${backgroundImages[backgroundImageIndex]})`;
+            landingPage.style.backgroundImage = `url(imgs/${backgroundImages[backgroundImageIndex]})`;
             backgroundImageIndex++
         }, 10000)        
     } else {
