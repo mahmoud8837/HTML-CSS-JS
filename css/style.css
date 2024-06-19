@@ -369,7 +369,9 @@ a{
         }
     }
     @media(max-width: 767px) {
-        height: 100svh;
+        & {
+            height: 100svh;
+        }
         .introduction-text {
             width: 80%;
             h1 {
